@@ -1,0 +1,82 @@
+{
+    "width": 1018,
+    "height": 768,
+    "calculate_zoom": true,
+    "storymap": {
+      "language": "en",
+      "map_type": "image",
+      "map_as_image": {
+        "url": "https://melangie.github.io/storytelling_2.0/Reconstructing_the_Antikythera_Mechanism_exhibition_at_WA_Museum_Boola_Bardip_2023_04-2.jpg",
+        "width": 1018,
+        "height": 768
+      },
+      "slides": [
+        {
+          "text": {
+            "headline": "The Machine Beneath the Waves",
+            "text": "<p>It began with a dive. A glint of bronze in the deep. My name is Elias, and this is the story of what I found below the surface.</p>"
+          },
+          "location": {
+            "zoom": 1,
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "text": {
+            "headline": "The First Glimmer",
+            "text": "<p>It was just a glint at first. Among broken statues and pottery, something different. Something... alive.</p>"
+          },
+          "location": {
+            "zoom": 3,
+            "x": 0.25,
+            "y": 0.2
+          }
+        },
+        {
+          "text": {
+            "headline": "More Than a Statue",
+            "text": "<p>I thought it was part of a helm or instrument. But as I brushed away the sand, the gears stared back.</p>"
+          },
+          "location": {
+            "zoom": 3,
+            "x": 0.5,
+            "y": 0.5
+          }
+        },
+        {
+          "text": {
+            "headline": "The Inscriptions",
+            "text": "<p>Letters. Ancient Greek. Not decoration\u2014these were instructions. Or warnings.</p>"
+          },
+          "location": {
+            "zoom": 3,
+            "x": 0.5,
+            "y": 0.1
+          }
+        },
+        {
+          "text": {
+            "headline": "A Clockwork Cosmos",
+            "text": "<p>It spun. Slowly. Silently. Like it remembered the sky. A machine that knew time.</p>"
+          },
+          "location": {
+            "zoom": 3,
+            "x": 0.7,
+            "y": 0.7
+          }
+        },
+        {
+          "text": {
+            "headline": "The Realization",
+            "text": "<p>This wasn\u2019t just bronze. It was a mind. A memory. A machine for the universe. And it found me.</p>"
+          },
+          "location": {
+            "zoom": 1,
+            "x": 0.5,
+            "y": 0.5
+          }
+        }
+      ]
+    }
+  }
