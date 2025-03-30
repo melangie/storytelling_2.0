@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My StoryMap</title>
     <meta name="description" content="Digital Storytelling Exercise">
+    
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Bootstrap Javascript -->
+    <!-- Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- StoryMap CSS -->
+    
+    <!-- StoryMapJS CSS & JS -->
     <link rel="stylesheet" href="https://cdn.knightlab.com/libs/storymapjs/latest/css/storymap.css">
-    <!-- StoryMap Javascript -->
-    <script type="text/javascript" src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>    
+    <script src="https://cdn.knightlab.com/libs/storymapjs/latest/js/storymap-min.js"></script>
 </head>
 <body>
     <header>
@@ -25,41 +26,41 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./mytimeline.html">My Timeline</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./mystorymap.html">My StoryMap</a>
-                      </li>
-                  </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./mystorymap.html">My StoryMap</a>
+                    </li>
+                </ul>
               </div>
             </div>
-          </nav>
+        </nav>
     </header>
+
     <main>
         <div class="container mt-5">
-            <h2>My StoryMap</h2>
-        </div>
-        <div class="container mt-5">
+            <h2>My StoryMap: The Machine Beneath the Waves</h2>
             <p>This StoryMap follows Elias, a diver who discovers the Antikythera Mechanism beneath the sea — and with it, a forgotten cosmic machine from the ancient world.</p>
         </div>
+
+        <!-- StoryMap Container -->
         <div id="mapdiv" style="width: 100%; height: 600px;"></div>
     </main>
-    <footer class="bg-body-tertiary">
-        <div class="container mt-5" id="footer-text">
+
+    <footer class="bg-body-tertiary mt-5">
+        <div class="container" id="footer-text">
             <p>Project by Melanie Frauendorfer</p>
             <p>Date: 16.04.2025</p>
         </div>
     </footer>
+
+    <!-- StoryMap Initialization -->
     <script>
-        // loading Storymap Data in div with id 'mapdiv'
-        var storymap_data = 'storymap.json';
-        
-        // certain settings must be passed within a separate options object
+        var storymap_data = 'storymap.json'; // Make sure this file is in the same folder on GitHub
         var storymap_options = {};
-        
         var storymap = new KLStoryMap.StoryMap('mapdiv', storymap_data, storymap_options);
         window.onresize = function(event) {
-            storymap.updateDisplay(); // this isn't automatic
-        }
+            storymap.updateDisplay();
+        };
     </script>
 </body>
 </html>
