@@ -55,12 +55,12 @@
 
     <!-- StoryMap Initialization -->
     <script>
-        var storymap_data = 'storymap.json'; // Make sure this file is in the same folder on GitHub
-        var storymap_options = {};
-        var storymap = new KLStoryMap.StoryMap('mapdiv', storymap_data, storymap_options);
-        window.onresize = function(event) {
-            storymap.updateDisplay();
-        };
-    </script>
+    var storymap_data = 'storymap.json'; // must be in the same folder!
+    var storymap_options = {};
+    var storymap = new KLStoryMap.StoryMap('mapdiv', storymap_data, storymap_options);
+    window.onresize = function(event) {
+        storymap.updateDisplay();
+    };
+</script>
 </body>
 </html>
